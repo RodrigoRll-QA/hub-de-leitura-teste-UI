@@ -49,4 +49,5 @@ npx cypress run
 
 [ ] Integração contínua (GitHub Actions).
 
+
 👤 Rodrigo Lins Lopes - Analista de QA em formação
