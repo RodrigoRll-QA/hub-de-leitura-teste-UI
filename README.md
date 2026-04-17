@@ -1,9 +1,10 @@
 # 🧪 Hub de Leitura - Automação de UI com Cypress
 
-![Cypress](https://img.shields.io/badge/-cypress-%23E9E9E9?style=for-the-badge&logo=cypress&logoColor=17202C)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green?style=for-the-badge)
+![EBAC](https://img.shields.io/badge/Origin-EBAC-blue)
+![Cypress](https://img.shields.io/badge/Framework-Cypress-blueviolet)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
+![NodeJS](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
+![Status](https://img.shields.io/badge/Status-Estudo-green)
 
 Este repositório contém a suíte de testes automatizados de interface (UI) para o projeto **Hub de Leitura**. O objetivo principal é garantir a qualidade e a integridade das funcionalidades críticas, começando pelo fluxo de comunicação do usuário.
 
