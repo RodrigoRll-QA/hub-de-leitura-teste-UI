@@ -27,19 +27,19 @@ Os testes estão organizados de forma a facilitar a manutenção e leitura:
 ## 🏁 Como Executar os Testes
 
 1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git](https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git)
+```bash```
+git clone [https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git](https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git)
    
 2. Instale as dependências:
-Bash
+```Bash```
 npm install
 
 3. Abra o Cypress (Modo Interativo):
-Bash
+```Bash```
 npx cypress open
 
 4. Execute os testes (Modo Headless):
-Bash
+```Bash```
 npx cypress run
 
 ## 📈 Próximos Passos
@@ -49,5 +49,4 @@ npx cypress run
 
 [ ] Integração contínua (GitHub Actions).
 
-
-👤 Rodrigo Lins Lopes - Analista de QA em formação
+## 👤 Rodrigo Lins Lopes - Analista de QA em formação
