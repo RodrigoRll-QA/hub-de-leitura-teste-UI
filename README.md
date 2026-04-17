@@ -42,7 +42,7 @@ npx cypress open
 Bash
 npx cypress run
 
-📈 Próximos Passos
+## 📈 Próximos Passos
 [ ] Implementação do padrão Page Object Model (POM).
 
 [ ] Adição de testes para fluxos de validação de formato de E-mail.
