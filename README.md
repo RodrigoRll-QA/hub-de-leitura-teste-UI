@@ -31,16 +31,16 @@ Os testes estão organizados de forma a facilitar a manutenção e leitura:
 git clone [https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git](https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git)```
    
 2. Instale as dependências:
-```Bash
-npm install```
+Bash
+npm install
 
 3. Abra o Cypress (Modo Interativo):
-```Bash
-npx cypress open```
+Bash
+npx cypress open
 
 4. Execute os testes (Modo Headless):
-```Bash
-npx cypress run```
+Bash
+npx cypress run
 
 ## 📈 Próximos Passos
 [ ] Implementação do padrão Page Object Model (POM).
