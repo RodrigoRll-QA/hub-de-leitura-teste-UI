@@ -1,50 +1,55 @@
 # 🧪 Hub de Leitura - Automação de UI com Cypress
 
-![EBAC](https://img.shields.io/badge/Origin-EBAC-blue)
-![Cypress](https://img.shields.io/badge/Framework-Cypress-blueviolet)
-![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
-![NodeJS](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
-![Status](https://img.shields.io/badge/Status-Estudo-green)
+[![EBAC](https://img.shields.io/badge/Origin-EBAC-blue)](https://ebaconline.com.br/)
+[![Cypress](https://img.shields.io/badge/Framework-Cypress-blueviolet)](https://www.cypress.io/)
+[![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![Faker-JS](https://img.shields.io/badge/Library-Faker.js-ff69b4)](https://fakerjs.dev/)
+[![NodeJS](https://img.shields.io/badge/Runtime-Node.js-brightgreen)](https://nodejs.org/)
 
-Este repositório contém a suíte de testes automatizados de interface (UI) para o projeto **Hub de Leitura**. O objetivo principal é garantir a qualidade e a integridade das funcionalidades críticas, começando pelo fluxo de comunicação do usuário.
+Este repositório contém a suíte de testes automatizados de interface (UI) para o projeto **Hub de Leitura**. O objetivo é garantir a qualidade das funcionalidades críticas e a integridade da jornada do usuário.
 
 ## 🎯 Escopo dos Testes
-Atualmente, o projeto foca na validação do formulário **"Fale Conosco"**, cobrindo os seguintes cenários:
-- [x] **Caminho Feliz:** Envio de formulário com todos os campos válidos.
-- [x] **Validação de Campos Obrigatórios:** Verificação de mensagens de erro para Nome, E-mail, Assunto e Mensagem.
-- [x] **Interação com Componentes:** Seleção dinâmica de dropdowns e disparos de alertas.
+
+O projeto cobre as seguintes funcionalidades:
+
+### 1. Cadastro de Usuários
+* **Caminho Feliz:** Registro realizado com sucesso utilizando massa de dados dinâmica (JS Puro e biblioteca Faker).
+* **Validação de E-mail:** Verificação de mensagens de erro ao inserir formatos de e-mail inválidos.
+* **Persistência de Dados:** Garantia de que o usuário permanece na página correta em caso de falha.
+
+### 2. Contato
+* **Envio de Formulário:** Validação de envio com campos obrigatórios preenchidos.
+* **Interação com Componentes:** Testes em dropdowns e alertas de confirmação.
 
 ## 🚀 Tecnologias Utilizadas
-- **Cypress:** Framework de automação End-to-End.
-- **JavaScript:** Linguagem base para escrita dos scripts.
-- **Node.js:** Ambiente de execução.
+
+* **Cypress:** Framework principal de automação.
+* **Faker-JS:** Geração de massa de dados aleatória e realista para testes de escala.
+* **JavaScript (ES6+):** Linguagem para escrita dos scripts.
 
 ## 🛠️ Estrutura do Projeto
-Os testes estão organizados de forma a facilitar a manutenção e leitura:
-- `cypress/e2e/`: Contém os arquivos de especificação de testes (.cy.js).
-- `cypress/support/`: Comandos personalizados e configurações globais.
+
+* `cypress/e2e/`: Scripts de teste (.cy.js).
+* `cypress/support/`: Comandos customizados e configurações auxiliares.
 
 ## 🏁 Como Executar os Testes
 
-1. **Clone o repositório:**
-```bash
-git clone https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git
-```  
-2. **Instale as dependências:**
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git
+    ```
 
-`npm install`
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-3. **Abra o Cypress (Modo Interativo):**
+3.  **Pré-requisito:**
+    Certifique-se de que o ambiente do **Hub de Leitura** está rodando localmente (ex: `localhost:8080`).
 
-`npx cypress open`
-
-4. **Execute os testes (Modo Headless):**
-
-`npx cypress run`
-
-## 📈 Próximos Passos
-- [ ] Implementação do padrão Page Object Model (POM).
-- [ ] Adição de testes para fluxos de validação de formato de E-mail.
-- [ ] Integração contínua (GitHub Actions).
+4.  **Abra o Cypress:**
+    ```bash
+    npx cypress open
+    ```
 
 ## 👤 Rodrigo Lins Lopes - Analista de QA em formação
