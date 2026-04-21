@@ -30,15 +30,15 @@ Os testes estão organizados de forma a facilitar a manutenção e leitura:
 ```bash
 git clone https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git
 ```  
-2. Instale as dependências:
+2. **Instale as dependências:**
 
 `npm install`
 
-3. Abra o Cypress (Modo Interativo):
+3. **Abra o Cypress (Modo Interativo):**
 
 `npx cypress open`
 
-4. Execute os testes (Modo Headless):
+4. **Execute os testes (Modo Headless):**
 
 `npx cypress run`
 
