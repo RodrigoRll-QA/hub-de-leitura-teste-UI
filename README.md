@@ -43,10 +43,8 @@ git clone https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git
 `npx cypress run`
 
 ## 📈 Próximos Passos
-[ ] Implementação do padrão Page Object Model (POM).
-
-[ ] Adição de testes para fluxos de validação de formato de E-mail.
-
-[ ] Integração contínua (GitHub Actions).
+- [ ] Implementação do padrão Page Object Model (POM).
+- [ ] Adição de testes para fluxos de validação de formato de E-mail.
+- [ ] Integração contínua (GitHub Actions).
 
 ## 👤 Rodrigo Lins Lopes - Analista de QA em formação
