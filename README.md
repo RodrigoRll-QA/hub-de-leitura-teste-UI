@@ -27,8 +27,8 @@ Os testes estão organizados de forma a facilitar a manutenção e leitura:
 ## 🏁 Como Executar os Testes
 
 1. **Clone o repositório:**
-```bash
-git clone [https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git](https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git)``
+bash
+git clone [https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git](https://github.com/RodrigoRll-QA/hub-de-leitura-teste-UI.git)
    
 2. Instale as dependências:
 npm install
